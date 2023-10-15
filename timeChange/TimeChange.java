@@ -16,7 +16,7 @@ public class TimeChange{
                 dayHoursWinterChange = dayHoursWinterChange + 1; //+1 because Winter Time does have 2Times 2 o`clock
             }
 
-            System.out.println("SummerTime: " + SummerTime + " WinterTime " + WinterTime);
+            System.out.println("SummerTime: " + SummerTime + " WinterTime: " + WinterTime);
         }
         System.out.println("Day Hours of Summer/Normal: "+dayHoursSummer+" Day Hours of WinterTime Change Day: "+dayHoursWinterChange);
     }
